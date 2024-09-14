@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: aqua;
+    padding:10px;
+    width:100%;
+}
+h1{
+    width: 25%;
+
+}
+ul{
+    width: 75%;
+    text-align: end;
+}
+li{
+    padding: 4px;
+    margin: 20px;
+    width: 100%;
+    display: inline;
+}
+li:hover{
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
+.search{
+    padding: 20px;
+    text-align: center;
+}input{
+    padding: 20px;
+    width: 60%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 30px;
+}.pro{
+    display: inline-block;
+    width: 220px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 9px;
+    color: white;
+
+}
+.product{
+    text-align: center;
+    padding: 20px;
+}.pro:hover{
+    background-color: black;
+    color: aqua;
+    border-color: aqua;
+   
+}
+body{
+    background-color: black;
+}
