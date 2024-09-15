@@ -17,16 +17,32 @@ if ($signup) {
     }
 } else {
 ?>
-    <pre>
-        <center>
-        <form method="post" action="signup.php">
-    <input name="username" type="text" placeholder="username" required>
-    <input name="email" type="email" placeholder="email" required>
-    <input name="phone" type="tel" placeholder="phone no" required>
-    <input name="password" type="password" placeholder="password" required>
-    <input type="submit">
 
+<center>
+<form method="post" action="signup.php">
+<table>
+    <tr>
+        <td>Username:</td>
+        <td><input name="username" type="text" placeholder="username" required></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input name="email" type="email" placeholder="email" required></td>
+    </tr>
+    <tr>
+        <td>Phone:</td>
+        <td><input name="phone" type="tel" placeholder="phone no" required></td>
+    </tr>
+    <tr>
+        <td>Password:</td>
+        <td><input name="password" type="password" placeholder="password" required></td>
+    </tr>
+    <tr>
+        <td><input type="submit"></td>
+        <td><input type="reset"></td>
+    </tr>
+</table>
 </form>
-        </center>
-</pre><?php
+</center>
+<?php
     }
